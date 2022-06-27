@@ -7,7 +7,6 @@
 Seu objetivo é replicar o layout e funcionalidades da página encontrada no arquivo .fig (raiz do projeto).
 
 ### 1) Estrutura base da página
-Primeiro crie a estrutura base da página, como indicado no print a seguir:
 
 ![](https://i.imgur.com/BHeAcpu.png)
 
