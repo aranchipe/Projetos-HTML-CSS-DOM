@@ -4,7 +4,7 @@
 
 ## Consulta de países
 
-Seu objetivo é replicar as funcionalidades da página descrita abaixo:
+O objetivo é replicar as funcionalidades da página descrita abaixo:
 - Sua página não deverá conter nenhum elemento no body além de um `<input class="busca">` e uma `<div class="paises">`
 - Você deverá buscar informações da [seguinte API](https://restcountries.eu/#api-endpoints), mais especificamente [deste endpoint](https://restcountries.eu/rest/v2/all)
 - As informações obrigatórias são:
@@ -13,22 +13,7 @@ Seu objetivo é replicar as funcionalidades da página descrita abaixo:
     - Capital (capital) um texto
     - População (population) um texto
     - Bandeira (flag) uma imagem
-- Como você vai dispor os elementos fica a seu cargo, o importante é criá-los a partir do JavaScript e inseri-los dentro da `<div class="paises">`, uma sugestão pode ser:
-    - Todas as informações dentro de uma `<div class="pais">`
-    - Nome em um `<h2>`
-    - Região em um `<span>`
-    - Capital em um `<span>`
-    - População em um `<p>`
-    - Bandeira em um `<img>`
-- Depois de popular sua página com as informações dos países, crie uma funcionalidade em que, quando o usuário pressionar a tecla "Enter" no seu `<input class="busca">`, os países com **nome** diferente da busca do usuário, deveram ser escondidos da tela (colocando o valor de *display* como *none* por exemplo)
 
----
+![image](https://user-images.githubusercontent.com/94014697/176053019-63a99d0e-d97e-4e11-bbd4-bff9caebcea0.png)
+![image](https://user-images.githubusercontent.com/94014697/176053064-0a631b66-9f2e-4a7e-8654-bb22264414f1.png)
 
-Preencha a checklist para finalizar o exercício:
-
-- [ ] Resolver o exercício revendo a aula se necessário
-- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
-
-###### tags: `módulo 2` `front-end` `exercício de classe` `HTML` `DOM`
