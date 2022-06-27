@@ -6,26 +6,13 @@
 
 Dado o arquivo html e css encontrado nesta pasta, crie dentro do elemento `<script>` um código que reproduza [o seguinte comportamento](https://i.imgur.com/DGXHIw7.gif).
 
-**Neste exercício usaremos:**
+**Neste exercício aprendemos:**
  - evento de clique
  - seletor de elementos da DOM
  - manipulação de texto dos elementos
  
-Você deverá implementar no mínimo duas funções: 
- - `pessoaAnterior()` 
-  - Mudar os conteúdos dos elementos: `.carousel__img`, `.review-text`, `.author__name`, `.author__title` para os conteúdos da pessoa anterior
- - `proximaPessoa()`
-  - Mudar os conteúdos dos elementos: `.carousel__img`, `.review-text`, `.author__name`, `.author__title` para os conteúdos da próxima pessoa
+ ![image](https://user-images.githubusercontent.com/94014697/176052716-eff975f4-01f6-4be8-b4dd-d232730d1d53.png)
+ ![image](https://user-images.githubusercontent.com/94014697/176052736-3524154c-9857-4fa8-8681-b53477b0dbba.png)
 
-Se necessário, crie outras funções e varíaveis além das que já estão dentro do `<script>`
+ 
 
----
-
-Preencha a checklist para finalizar o exercício:
-
-- [ ] Resolver o exercício revendo a aula se necessário
-- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
-
-###### tags: `front-end` `módulo 2` `exercício de classe` `DOM` `JS`
