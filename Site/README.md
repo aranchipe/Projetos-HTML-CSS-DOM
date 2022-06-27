@@ -13,25 +13,21 @@ Comportamentos esperados:
   - Quando o usuário clicar no modal (e não na imagem dele), o modal deverá ser fechado
   - Quando o usuário clicar na imagem, a mesma deverá ser aberta em outra guia por meio de um link
 
-**Neste exercício usaremos: (CSS)**
+**Neste exercício usamos: (CSS)**
  - position sticky
  - position relative
  - position fixed
  - z-index
 
-**Neste exercício usaremos: (JS)**
+**Neste exercício usamos: (JS)**
  - evento de clique
  - seletor de elementos da DOM
  - manipulação de elementos
  - manipulação de classes/style de elementos
+ 
+ ![image](https://user-images.githubusercontent.com/94014697/176053228-27b18651-ce28-4135-bf10-2c3cae26aee5.png)
+![image](https://user-images.githubusercontent.com/94014697/176053265-db60fc0f-215e-47a0-a47f-6e751667311b.png)
+![image](https://user-images.githubusercontent.com/94014697/176053298-9e4fa3ba-5a2a-43d1-bd5b-2df1c462e78f.png)
 
----
 
-Preencha a checklist para finalizar o exercício:
 
-- [ ] Resolver o exercício revendo a aula se necessário
-- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
-
-###### tags: `front-end` `módulo 2` `exercício de classe` `DOM` `JS`
