@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+.barraMenor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64px;
+    height: 100vh;
+    background-color: #313131;
+    padding: 20px;
+    justify-content: space-between;
+    position: fixed;
+}
+ 
+.superior {
+    display: flex;
+    flex-direction: column;
+    height: 152px;
+    justify-content: space-between;
+} 
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 152px 0 ;
+    margin-left: 64px;
+}
+
+.titulo {
+    margin-bottom: 52px;
+}
+
+.linha1 {
+    display: flex;
+    justify-content: space-between;
+    width: 1290px;
+}
+
+.linha2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1290px;
+}
+
+.linha3 {
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+}
+
+.corpo img {
+    margin-bottom: 18px;
+}
+
+.corpo span {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.descricao {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+
+.barraMaior img {
+    width: 24px;
+    height: 24px; 
+    margin-right: 25px;
+}
+
+.barraMaior .superior {
+    display: flex;
+    flex-direction: column;
+    height: 155px;
+    justify-content: space-between;
+}
+
+.fechar {
+    display: flex;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+}
+
+.favoritos {
+    display: flex;
+    align-items: center;
+}
+
+.barraMaior span {
+    color: white;
+}
+
+.inferior {
+    display: flex;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.modalFechar {
+    position: absolute;
+    right: 45px;
+    top: 90px;
+}
+
+.modalImagem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 825px;
+    position: relative;
+}
+
+.foto img {
+    width: 555px;
+    height: 370px;
+}
+
+.anterior img {
+    width: 35px;
+    height: 70px;
+    position: absolute;
+}
+
+.anterior {
+    display: flex;
+    align-items: center;
+}
+
+.proximo {
+    display: flex;
+    align-items: center;
+}
+
+.proximo img {
+    width: 35px;
+    height: 70px;
+    position: absolute;
+
+}
+
+.barraMaior {
+    display: flex;
+    flex-direction: column;
+    width: 199px;
+    height: 100vh;
+    background-color: #313131;
+    padding: 20px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+.like {
+    
+    position: absolute;
+    right: 155px;
+    top: 20px;
+}
+
+.bloco {
+    position: relative;
+}
+
+.like1 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.barraMaior span {
+    cursor: pointer;
+}
+
+.escondido {
+    display: none;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.inicio span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.favoritos span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #888888;
+}
+
+.inferior span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #888888;
+}
+
+.nome {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: black;
+}
+
+.data {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #5C5C5C;
+}
+
+.titulo h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}

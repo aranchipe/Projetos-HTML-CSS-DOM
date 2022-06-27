@@ -1,0 +1,17 @@
+ body {  
+    min-height: 100vh;
+} 
+
+.capital {
+    display: inline-block;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.escondido {
+    display: none;
+}
